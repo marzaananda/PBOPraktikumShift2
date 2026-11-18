@@ -37,11 +37,15 @@ public class Tugas3 {
         System.out.println("nilai rata rata nya adalah : " + rata);
         System.out.println("ganjil & genap");
         System.out.print("genap : ");
+        int tempData = 0;
         for (int i = 0; i < array; i++) {
             if (data[i] % 2 == 0) {
                 System.out.print(data[i] + " ");
             }
+            tempData += data[i];
         }
+        System.out.println();
+        System.out.println("hasil penjumlahan : " + tempData);
         System.out.println();
         // System.out.println();
         // System.out.print("ganjil: ");
@@ -50,8 +54,9 @@ public class Tugas3 {
         // System.out.print(data[i] + " ");
         // }
         // }
+
         Arrays.sort(data);
-        System.out.println("urutan "+Arrays.toString(data));
+        System.out.println("urutan " + Arrays.toString(data));
 
     }
 

@@ -29,9 +29,12 @@ public class Main {
         // soal5.nomber5();
         
         //soal no 6
-        
+        // Tugas6 soal6 = new Tugas6();
+        // soal6.nomber6();
+
         //soal no 7
-        
+        // Tugas7 soal7 = new Tugas7();
+        // soal7.nomber7();
         //soal no 8
         
         //soal no 9
