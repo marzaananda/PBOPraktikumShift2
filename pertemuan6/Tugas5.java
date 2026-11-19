@@ -19,10 +19,17 @@ public class Tugas5 {
         System.out.println("hasil");
         for (int i = 0; i < baris; i++) {
             for (int j = 0; j < kolom; j++) {
-                System.out.print("["+array[i][j]+"]");
+                System.out.print("[" + array[i][j] + "]");
             }
             System.out.println();
         }
+        int hasil=0;
+        for (int i = 0; i < baris; i++) {
+            for (int j = 0; j < kolom; j++) {
+                hasil += array[i][j];
+            }
+        }
+        System.out.println("hasil array " + hasil);
 
     }
 }
