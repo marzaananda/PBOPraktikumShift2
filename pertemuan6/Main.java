@@ -34,9 +34,12 @@ public class Main {
 
         //soal no 7
         // Tugas7 soal7 = new Tugas7();
-        // soal7.nomber7();
-        //soal no 8
-        
+        // soal7.run();
+
+        //soal no 8 (error di jalankan di main,sabar masih di perbaiki)
+        // Tugas8 soal8 = new Tugas8();
+        // soal8.run();
+
         //soal no 9
         // System.out.println("soal no 9");
         // Tugas9 soal9 = new Tugas9();
